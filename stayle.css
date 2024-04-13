@@ -1,0 +1,146 @@
+*{
+    padding: 0;margin: 0;
+    text-decoration: none;
+}
+:root{
+    --header-bgColor: #24292f;
+    --color-header-bg: #ffffffb3;
+    --header-fgColor-default:#ffffffb3;
+    --Dark-blue:#0e0e55;
+}
+body{
+    font-family: sans-serif;
+    
+}
+/* CSS for header */
+/* CSS for container */
+
+header {
+    color: var(--color-header-bg); /* Change text color as needed */
+    height: 50px;
+    padding: 16px;
+    font-size: 16px;
+    line-height: 1.5;
+    flex-wrap: wrap;
+    background-color: #333; /* Change background color as needed */
+
+
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0  50px;
+    
+}
+
+.title{
+    
+    display: flex;
+    align-items: center;
+    flex-wrap:wrap;
+    color: #fff;
+    
+}
+.title a{
+    color: rgb(255, 255, 255);
+}
+/* CSS for logo */
+.container i {
+    font-size: 50px; /* Adjust image width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px;
+
+}
+
+
+/* CSS for navigation items */
+.container li {
+    display: inline;
+    margin-right: 15px; /* Adjust spacing between items as needed */
+}
+
+/* CSS for navigation links */
+.container li a {
+    color: #fff; /* Change link color as needed */
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.container li a:hover{
+    color: rgb(208, 208, 208);
+}
+
+
+.box{
+    padding: 30px 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left{
+    width: 30%;
+
+}
+.right{
+    width: 68%;
+}
+.card{
+    border: 1px solid var(--header-bgColor);
+    margin-bottom: 20px;
+    
+}
+.card h2{
+    background-color: #000;
+    color: white;
+    padding: 15px;
+    border-radius: 3px;
+
+}
+form{
+    padding: 15px;
+}
+label{
+    font-size: 16px;
+    display: block;
+}
+input{
+    width: 94%;
+    padding: 10px 12px;
+    margin: 7px 0 ;
+    font-size: 16px;
+    border: 1px solid var(--header-bgColor);
+    outline: 0;
+    border-radius: 3px;
+}
+.langus{
+    padding: 15px;
+}
+.submet{
+    cursor: pointer;
+
+    width: 100%;
+    display: block;
+    margin: 5px 0;
+    background-color: var(--header-bgColor);
+    color: white;
+    padding: 7px 10px;
+    font-size: 17px;
+    border-radius: 5px;
+}.submet:hover{
+    background-color: #000;
+}
+
+.repos-item{
+    background-color: var(--header-bgColor);
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px ;
+    margin: 7px 0;
+    border-radius: 5px;
+}
+
+.repos-item:hover{
+    background-color: #000;
+}
