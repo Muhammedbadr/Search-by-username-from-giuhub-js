@@ -47,10 +47,10 @@ header {
 }
 /* CSS for logo */
 .container i {
-    font-size: 50px; /* Adjust image width as needed */
+    font-size: 40px; /* Adjust image width as needed */
     height: auto; /* Maintain aspect ratio */
     margin-right: 10px;
-
+    
 }
 
 
@@ -85,6 +85,8 @@ header {
 .right{
     width: 68%;
 }
+
+
 .card{
     border: 1px solid var(--header-bgColor);
     margin-bottom: 20px;
@@ -136,10 +138,12 @@ input{
     color:white;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 10px 15px ;
     margin: 7px 0;
     border-radius: 5px;
 }
+
 
 .repos-item:hover{
     background-color: #000;
